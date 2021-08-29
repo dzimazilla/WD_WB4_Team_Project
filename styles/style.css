@@ -1,0 +1,100 @@
+/* Developed by: Team 4: ChrisP, Remy, ChrisW, Dmitri, Anthony*/
+
+/* Script Date: August 27, 2021 */
+
+/* ------------------Signup Page-------------------------*/
+
+/*Dmitri*/
+
+.flexwrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    max-width: 1280px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    background: deepskyblue;
+}
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.nav a:hover {
+    background: #1565C0;
+}
+
+header {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.footer {
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+}
+
+/*----------------resources.html----------
+Chris P---*/
+
+header img {
+    float: left;
+    margin: 5px;
+}
+
+#resources_header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+}
+
+#resources_content img {
+    float: left;
+    padding: 0 14px 0 10px;
+}
+
+#resources_content h4 {
+    color: black;
+}
+
+#included {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+/*----events.html-----
+Chris W----*/
+
+table {
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+th, td {
+    font-weight: bold;
+    border: 1px solid gray;
+    padding: 30px;
+    text-align: center;
+    width: 30px;
+}
+
+div {
+    background-color: lightcyan;
+}
