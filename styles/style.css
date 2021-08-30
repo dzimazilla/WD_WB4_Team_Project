@@ -1,8 +1,7 @@
-/* Developed by: Team 4: ChrisP, Remy, ChrisW, Dmitri, Anthony*/
+/* Developed by: Team 4: ChrisP, Remy, ChrisW, Dimitri, Anthony*/
 
-/* Script Date: August 27, 2021 */
+/* Script Date: August 30, 2021 */
 
-/*Dmitri*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -122,16 +121,10 @@ footer {
     height: 33px;
     width: 115px;
     font-size: 22px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*----------------resources.html----------
-Chris P---*/
-
-/*header img {
-    float: left;
-    margin: 5px;
-}*/
+/*----------------resources.html-----------------*/
 
 #resources_header {
     text-align: center;
@@ -153,8 +146,7 @@ Chris P---*/
     text-align: right;
 }
 
-/*----events.html-----
-Chris W----*/
+/*------------------events.html-------------------*/
 
 table {
     border-collapse: collapse;
@@ -172,18 +164,14 @@ th, td {
 }
 
 a:hover {
-    box-shadow: 5px 5px 5px White inset, 
-                -5px -5px 5px White inset,
-                5px 5px 5px White , 
-                -5px -5px 5px White ;
+    box-shadow: 5px 5px 5px White inset, -5px -5px 5px White inset, 5px 5px 5px White, -5px -5px 5px White;
     border-radius: 10px;
-
     width: 100px;
     text-align: center;
     font-size: larger;
 }
 
-#container{
+#container {
     margin: auto;
 }
 
@@ -192,5 +180,41 @@ header {
     background-repeat: no-repeat;
     background-size: 100% auto;
     padding: 95px;
+}
 
+/*----------------------index.html---------------------*/
+
+#news {
+    background-image: url("/images/ClearSkies1.PNG");
+}
+
+#about-us {
+    background-image: url("/images/Together2.PNG");
+    background-position: center;
+}
+
+#events {
+    background-image: url("/images/Gathering1.PNG");
+    background-position: center;
+}
+
+#resources {
+    background-image: url("/images/Legal1.PNG");
+}
+
+#donate {
+    background-image: url("/images/Together3.PNG");
+    background-position: center;
+}
+
+#contact {
+    background-image: url("/images/HappyPerson1.PNG");
+}
+
+article p {
+    background-color: white;
+    box-shadow: 0px 2px 10px black;
+    padding: 5px;
+    float: left;
+    width: 50%;
 }
