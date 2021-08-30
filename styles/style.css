@@ -182,3 +182,15 @@ a:hover {
     text-align: center;
     font-size: larger;
 }
+
+#container{
+    margin: auto;
+}
+
+header {
+    background-image: url("/images/");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 95px;
+
+}
