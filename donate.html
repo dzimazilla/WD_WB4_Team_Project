@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="nav" name="top">
+    <nav class="nav" id="top">
         <a href="index.html">Home</a>
         <a href="news.html">News</a>
         <a href="events.html">Events</a>
@@ -27,31 +27,34 @@
     <header>
         <h1>Donate</h1>
     </header>
-    <section>
-        <h2>Immigrants and activists need our help now more than ever.</h2>
-        <p>
-            We produce and distribute legal materials with charities, attorneys, and immigrants through the Immigration
-            Advocates Network. Your
-            contribution enables us to provide more people with accurate and timely information.
-        </p>
-        <p>
-            Fill out the form below to make a secure online donation. An email receipt will be sent to you
-            automatically.
-        </p>
-    </section>
 
-    <div id="donation-form-container" class="flexflexwrapper">
-        <form class="donation-form" method="post" action="donation-completed.html" autocomplete="on">
-            <div class="section-donation">
-                <h3>Donation</h3>
+    <main>
+        <section>
+            <p>Immigrants and activists need our help now more than ever. We produce and distribute legal materials
+                with charities, attorneys, and immigrants through the
+                Immigration
+                Advocates Network. Your
+                contribution enables us to provide more people with accurate and timely information.
+            </p>
+            <p>
+                Fill out the form below to make a secure online donation. An email receipt will be sent to you
+                automatically.
+            </p>
+        </section>
+
+        <form method="post" action="donation-completed.html" autocomplete="on">
+            <div>
+                <h2>Donation</h2>
                 <div>
                     <input type="radio" id="twentyFive" name="donation-level" value="25" checked="checked" />
-                    <label for="twentyFive">$25.00 - Empower immigrants with access to free, plain-language legal
+                    <label for="twentyFive">$25.00 - Empower immigrants with access to free, plain-language
+                        legal
                         resources</label>
                 </div>
                 <div>
                     <input type="radio" id="fifty" name="donation-level" value="50" />
-                    <label for="fifty">$50.00 - Support free training webinars and online libraries for nonprofit
+                    <label for="fifty">$50.00 - Support free training webinars and online libraries for
+                        nonprofit
                         staff and volunteer attorneys</label>
                 </div>
                 <div>
@@ -61,13 +64,15 @@
                 </div>
                 <div>
                     <input type="radio" id="twoHundredAndFifty" name="donation-level" value="250" />
-                    <label for="twoHundredAndFifty">$250.00 - Innovate legal services and leverage limited resources
+                    <label for="twoHundredAndFifty">$250.00 - Innovate legal services and leverage limited
+                        resources
                         with
                         technology</label>
                 </div>
                 <div>
                     <input type="radio" id="fiveHundred" name="donation-level" value="500" />
-                    <label for="fiveHundred">$500.00 - Help thousands of people understand their legal options, apply
+                    <label for="fiveHundred">$500.00 - Help thousands of people understand their legal options,
+                        apply
                         for citizenship, and find legal help</label>
                 </div>
                 <div>
@@ -79,8 +84,8 @@
                 </div>
             </div>
 
-            <div class="payment-method">
-                <h3>Payment Method</h3>
+            <div>
+                <h2>Payment Method</h2>
                 <div>
                     <input type="radio" id="visa" name="payment_method" value="visa" checked="checked" />
                     <label for="visa">Visa</label>
@@ -96,8 +101,8 @@
 
             </div>
 
-            <div class="payment-information">
-                <h3>Payment Information</h3>
+            <div>
+                <h2>Payment Information</h2>
                 <div>
                     <label for="cardNumber">Credit or Debit card number</label>
                     <input type="tel" id="cardNumber" pattern="\d*" maxlength="19" placeholder="Card Number"
@@ -115,8 +120,8 @@
                 </div>
             </div>
 
-            <div class="contact-section">
-                <h3>Contact Information</h3>
+            <div>
+                <h2>Contact Information</h2>
                 <div>
                     <label for="firstName">First Name: </label>
                     <input type="text" id="firstName" size="25" minlength="2" maxlength="15"
@@ -138,8 +143,9 @@
                     <input type="tel" id="phoneNumber" size="30" maxlength="10" required="required" />
                 </div>
             </div>
-            <div class="section billing-address">
-                <h3>Billing Address</h3>
+
+            <div>
+                <h2>Billing Address</h2>
                 <div>
                     <label for="country">Country</label>
                     <select id="country">
@@ -420,19 +426,17 @@
             <div>
                 <input type="submit" id="submitDonation" value="Donate" />
             </div>
-
         </form>
-    </div>
+    </main>
+
 
     <footer class="footer">
-        <div class="nav">
-            <a href="#">Accessibility</a>
-            <a href="#">FAQ</a>
-            <a href="about.html">About Us</a>
-            <a href="donate.html">Donate</a>
-            <a href="resources.html">Resources</a>
-            <a href="#top">Back to top</a>
-        </div>
+        <a href="#">Accessibility</a>
+        <a href="#">FAQ</a>
+        <a href="about.html">About Us</a>
+        <a href="donate.html">Donate</a>
+        <a href="resources.html">Resources</a>
+        <a href="#top">Back to top</a>
     </footer>
 </body>
 
