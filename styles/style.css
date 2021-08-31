@@ -219,6 +219,13 @@ article p {
     width: 50%;
 }
 
+form div {
+    background-color: white;
+    box-shadow: 0px 2px 10px black;
+    padding: 5px;
+    width: 50%;
+}
+
 @media screen and (min-width:360px) and (max-width: 400px){
     .grid {
         display: grid;
