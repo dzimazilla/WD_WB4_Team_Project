@@ -17,6 +17,7 @@
 </head>
 
 <div id="container">
+
     <body>
         <nav id="top" class="nav">
             <a href="index.html">Home</a>
@@ -53,11 +54,12 @@
                 </p>
             </section>
 
-            <form method="post" action="donation-completed.html" autocomplete="on">
+            <form id="donate_form" method="post" action="donation-completed.html" autocomplete="on">
                 <div>
                     <h2>Donation</h2>
                     <div>
-                        <input type="radio" id="twentyFive" name="donation-level" value="25" checked="checked" />
+                        <input type="radio" id="twentyFive" name="donation-level" value="25" autofocus="autofocus"
+                            checked="checked" />
                         <label for="twentyFive">$25.00 - Empower immigrants with access to free, plain-language
                             legal
                             resources</label>
@@ -103,11 +105,15 @@
                     </div>
                     <div>
                         <input type="radio" id="mastercard" name="payment_method" value="master_card" />
-                        <label for="mastercard">Master Card</label>
+                        <label for="mastercard">Mastercard</label>
                     </div>
                     <div>
-                        <input type="radio" id="americaExpress" name="payment_method" value="america_express" />
-                        <label for="americaExpress">American Express</label>
+                        <input type="radio" id="americanExpress" name="payment_method" value="american_express" />
+                        <label for="americanExpress">American Express</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="debit" name="payment_method" value="debit" />
+                        <label for="debit">Debit</label>
                     </div>
 
                 </div>
@@ -115,18 +121,18 @@
                 <div>
                     <h2>Payment Information</h2>
                     <div>
-                        <label for="cardNumber">Credit or Debit card number</label>
-                        <input type="tel" id="cardNumber" pattern="\d*" maxlength="19" placeholder="Card Number"
-                            required="required" /><span><sup>*</sup></span>
+                        <label for="cardNumber">Credit or Debit card number:</label>
+                        <input type="tel" id="cardNumber" pattern="\d*" size="24" maxlength="24" minlength="8"
+                            placeholder="Card Number" required="required" /><span><sup>*</sup></span>
                         <div>
-                            <label for="creditExpires">Expiration date</label>
-                            <input type="tel" id="creditExpires" pattern="\d*" maxlength="7" placeholder="MM / YY"
-                                required="required" /><span><sup>*</sup></span>
+                            <label for="creditExpires">Expiration date:</label>
+                            <input type="month" id="creditExpires" pattern="\d*" size="8" maxlength="5"
+                                placeholder="MM / YY" min="08/21" required="required" /><span><sup>*</sup></span>
                         </div>
                         <div>
-                            <label for="creditCvc"> Card Verification Code</label>
-                            <input type="tel" id="creditCvc" pattern="\d*" maxlength="4" placeholder="CVC"
-                                required="required" /><span><sup>*</sup></span>
+                            <label for="creditCvc"> Card Verification Code:</label>
+                            <input type="password" id="creditCvc" pattern="\d*" size="3" minlength="3" maxlength="3"
+                                placeholder="CVC" required="required" /><span><sup>*</sup></span>
                         </div>
                     </div>
                 </div>
@@ -135,23 +141,24 @@
                     <h2>Contact Information</h2>
                     <div>
                         <label for="firstName">First Name: </label>
-                        <input type="text" id="firstName" size="25" minlength="2" maxlength="15"
+                        <input type="text" id="firstName" size="30" minlength="2" maxlength="16"
                             required="required" /><span><sup>*</sup></span>
                     </div>
                     <div>
                         <label for="lastName">Last Name: </label>
-                        <input type="text" id="lastName" size="25" minlength="2" maxlength="15"
+                        <input type="text" id="lastName" size="30" minlength="1" maxlength="16"
                             required="required" /><span><sup>*</sup></span>
                     </div>
                     <div>
                         <label for="emailAddress">Email Address:</label>
-                        <input type="email" id="emailAddress" size="40" maxlength="30"
+                        <input type="email" id="emailAddress" size="40" maxlength="40"
                             placeholder="your_email@example.com" required="required"
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /><span><sup>*</sup></span>
                     </div>
                     <div>
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="tel" id="phoneNumber" size="30" maxlength="10" required="required" />
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" id="phoneNumber" size="30" maxlength="10" required="required"
+                            placeholder="include the area code" />
                     </div>
                 </div>
 
@@ -411,16 +418,16 @@
                         </select>
                     </div>
                     <div>
-                        <label for="streetAddress">Address</label>
+                        <label for="streetAddress">Address:</label>
                         <input type="text" id="streetAddress" size="30" maxlength="30" /><span><sup>*</sup></span>
                     </div>
                     <div>
-                        <label for="city">City</label>
-                        <input type="text" id="city" size="30" maxlength="15" /><span><sup>*</sup></span>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" size="30" maxlength="20" minlength="2" /><span><sup>*</sup></span>
                     </div>
                     <div>
                         <label for="state">State/Province:</label>
-                        <input type="text" id="state" size="3" maxlength="2" /><span><sup>*</sup></span>
+                        <input type="text" id="state" size="3" maxlength="2" minlength="2" /><span><sup>*</sup></span>
                     </div>
                     <div>
                         <label for="zipcode">Zipcode:</label>
@@ -430,13 +437,26 @@
 
                 <div>
                     <div>
-                        <label for="comment">Comments</label>
-                        <textarea id="comment" cols="50" rows="4"></textarea>
+                        <br>
+                        <label for="comment">Comments:</label>
+                        <textarea id="comment"></textarea>
                     </div>
                 </div>
-                <div>
-                    <input type="submit" id="submitDonation" value="Donate" />
+                <br>
+                <div id="terms">
+                    <input type="checkbox"></input>
+                    <label for="confirmation">I have read the </label><a href="termsconditions.html"
+                        title="Click to read Terms and Conditions">Terms and
+                        Conditions</a>*
                 </div>
+
+                <br>
+                <div id="buttons">
+                    <input type="submit" id="submitDonation" value="Donate"/>&nbsp;
+                    <button type="reset" class="button">Clear All</button>
+                </div>
+<br>
+                <p id="required_fields">* = required fields</p>
             </form>
         </main>
 
@@ -449,7 +469,7 @@
             <a href="resources.html">Resources</a>
             <a href="#top">Back to top</a>
 
-            
+
             <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
