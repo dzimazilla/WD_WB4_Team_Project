@@ -129,7 +129,10 @@ footer {
 #resources_header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 10px;
+    font-size: large;
+    margin: auto;
+    width: 45em;
+    background-color:seashell;
 }
 
 #resources_content img {
@@ -139,11 +142,14 @@ footer {
 
 #resources_content h4 {
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #included {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
+    font-size: large;
+    font-weight: bold;
 }
 
 /*------------------events.html-------------------*/
@@ -173,6 +179,13 @@ a:hover {
 
 #container {
     margin: auto;
+    background-image: url(/images/background-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: #f0f0f0;
+   
 }
 
 header {
