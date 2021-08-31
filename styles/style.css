@@ -2,7 +2,6 @@
 
 /* Script Date: August 30, 2021 */
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -134,7 +133,7 @@ footer {
     font-size: large;
     margin: auto;
     width: 45em;
-    background-color:seashell;
+    background-color: seashell;
 }
 
 #resources_content img {
@@ -184,7 +183,6 @@ a:hover {
     background-attachment: fixed;
     background-size: contain;
     background-color: #f0f0f0;
-   
 }
 
 header {
@@ -229,6 +227,9 @@ header {
     background-size: cover;
 }
 
+article a {
+    text-decoration: none;
+}
 
 /*----------------------about.html---------------------*/
 
@@ -236,27 +237,28 @@ header {
     background-image: url("/images/Together4.PNG");
     background-size: cover;
 }
+
 #how_we {
     background-image: url("/images/Work1.PNG");
     background-size: cover;
-} 
+}
+
 #accomplish {
     background-image: url("/images/Graduation2.PNG");
     background-size: cover;
-} 
+}
+
 #plans {
     background-image: url("/images/Together1.PNG");
     background-size: cover;
-} 
+}
+
 #how_you {
     background-image: url("/images/HappyPerson3.PNG");
     background-size: cover;
 }
 
-
-
-
-@media screen and (min-width:360px) and (max-width: 400px){
+@media screen and (min-width:360px) and (max-width: 400px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -264,15 +266,13 @@ header {
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 768px){
+@media screen and (min-width: 401px) and (max-width: 768px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-
 }
-
 
 .textPop {
     background-color: rgba(255, 255, 255, 0.863);
@@ -303,23 +303,21 @@ header {
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
-#donate_form{
+#donate_form {
     margin-left: 15px;
 }
 
-#comment{
+#comment {
     max-width: 40em;
     resize: vertical;
     max-height: 300px;
     font-family: sans-serif;
     background-color: white;
-
 }
 
 #buttons {
     padding-left: 12px;
-    text-align:left;
-
+    text-align: left;
 }
 
 ::placeholder {
