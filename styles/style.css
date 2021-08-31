@@ -325,3 +325,11 @@ article a {
     font-family: monospace;
     font-size: 15px;
 }
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}

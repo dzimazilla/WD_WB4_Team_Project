@@ -23,7 +23,7 @@
         <header>
             <h1>Events</h1>
         </header>
-        
+
 
         <nav id="top" class="nav">
             <a href="index.html">Home</a>
@@ -40,6 +40,14 @@
                     <option value="Francais">Fran&ccedil;ais</option>
                     <option value="Espaniol">Espa&ntilde;ol</option>
                 </select>
+                <div id="google_translate_element"></div>
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+                    }
+                </script>
+                <script type="text/javascript"
+                    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
             </div>
         </nav>
 
@@ -48,19 +56,23 @@
             <div class="sidenav">
                 <a href="#upcoming">Upcoming Events</a>
                 <a href="#past">Past Events</a>
-    
+
             </div>
-    
+
             <div class="content">
                 <h2>Placeholder Text</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae, vel enim earum cum exercitationem!
-                    Consequuntur expedita voluptatem similique, cum quod, ducimus aliquam ratione repellat, vero animi iure
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae, vel enim earum cum
+                    exercitationem!
+                    Consequuntur expedita voluptatem similique, cum quod, ducimus aliquam ratione repellat, vero animi
+                    iure
                     laborum libero?</p>
-    
+
                 <h2 id="upcoming">Upcoming Events</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum dignissimos, tenetur esse atque sint
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum dignissimos, tenetur esse atque
+                    sint
                     saepe
-                    quam mollitia ducimus pariatur. Nemo dolore ab, officia eveniet aliquam laudantium quia natus. Officia.
+                    quam mollitia ducimus pariatur. Nemo dolore ab, officia eveniet aliquam laudantium quia natus.
+                    Officia.
                 </p>
             </div>
         </div>
@@ -68,14 +80,14 @@
             September 2021
         </h2>
         <br />
-    
+
         <table bgcolor="lightgrey" align="center" cellspacing="21" cellpadding="21">
-    
+
             <caption align="top">
-    
+
             <thead>
                 <tr>
-    
+
                     <th style=" background: #fed15c;">
                         Sun</th>
                     <th style=" background: #fed15c;">
@@ -92,7 +104,7 @@
                         Sat</th>
                 </tr>
             </thead>
-    
+
             <tbody>
                 <tr>
                     <td style="color: rgb(201, 192, 192)">26</td>
@@ -153,11 +165,11 @@
                 </tr>
             </tbody>
         </table>
-    
+
         <div>
             <h2 id="past">Past Events</h2>
             <p>Previous most recent notable events.</p>
-    
+
             <p>
             <ul>
                 <li>Sikh Community of Parc-Extension Banquet</li>
