@@ -218,3 +218,20 @@ article p {
     float: left;
     width: 50%;
 }
+
+@media screen and (min-width:360px) and (max-width: 400px){
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px){
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+}
