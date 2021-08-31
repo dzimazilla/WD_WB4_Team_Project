@@ -229,6 +229,10 @@ header {
     background-size: cover;
 }
 
+article a {
+    text-decoration: none;
+}
+
 /*----------------------about.html---------------------*/
 
 #mission {
@@ -347,7 +351,9 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 /*----Google stuff----*/
+
 .goog-logo-link {
     display: none !important;
 }
