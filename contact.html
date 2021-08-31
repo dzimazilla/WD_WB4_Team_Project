@@ -53,7 +53,7 @@
 
         <main>
             <section>
-                <h2 style="text-align: center;">You are welcome to call or email us with your questions</h2>
+                <h2 style="text-align: center;">You are welcome to contact us with your questions</h2>
                 <p>United Immigration Advocates (UIA) is a collaboration of major immigrant rights groups that
                     aims to improve low-income immigrants' access to justice while also strengthening the capacity of
                     advocates and organisations that serve them.
@@ -78,31 +78,34 @@
             <form method="post" action="action_page.html" autocomplete="on" class="center shadow">
                 <div>
                     <label for="firstName">First Name: </label> <br />
-                    <input type="text" id="firstName" size="25" minlength="2" maxlength="15" placeholder="Your name.."
-                        required="required" class="formFormat" /><span><sup>*</sup></span>
+                    <input type="text" id="firstName" size="25" minlength="2" maxlength="20"
+                        placeholder="Your first name..." required="required"
+                        class="formFormat" /><span><sup>*</sup></span>
                 </div>
-
+                <br>
                 <div>
                     <label for="lastName">Last Name: </label><br />
-                    <input type="text" id="lastName" size="25" minlength="2" maxlength="15"
-                        placeholder="Your last name.." required="required" class="formFormat" />
+                    <input type="text" id="lastName" size="25" minlength="2" maxlength="20"
+                        placeholder="Your last name..." required="required" class="formFormat" />
                 </div>
-
+                <br>
                 <div>
                     <label for="emailAddress" class="formFormat">Email Address:</label><br />
-                    <input type="email" id="emailAddress" size="40" maxlength="30" placeholder="your_email@example.com"
+                    <input type="email" id="emailAddress" size="40" maxlength="40" placeholder="your_email@example.com"
                         required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                         class="formFormat" /><span><sup>*</sup></span>
                 </div>
-
+                <br>
                 <div>
                     <label for="comments">Questions and Comments</label><br />
-                    <textarea id="comments" cols="50" rows="4"
-                        class="formFormat">We are waiting for your comments and suggestions..</textarea>
+                    <textarea class="comment" placeholder="Enter your Questions and comments here"></textarea>
                 </div>
+                <br>
                 <div>
                     <input type="submit" id="submitLetter" value="Submit Form" class="formFormat">
                 </div>
+                <br>
+
             </form>
         </main>
         <br />

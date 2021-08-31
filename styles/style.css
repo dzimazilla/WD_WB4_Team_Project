@@ -68,10 +68,6 @@ body {
     background: #1565C0;
 }
 
-header {
-    text-align: center;
-}
-
 footer {
     text-align: center;
     background-color: deepskyblue;
@@ -188,6 +184,7 @@ a:hover {
 }
 
 header {
+    text-align: center;
     background-image: url("/images/custombanner.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -296,21 +293,18 @@ article a {
     text-align: center;
 }
 
-.formFormat {
-    margin-bottom: 20px;
-}
-
 .hStyling {
     color: white;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
+/*----- donate.html and contact.html -----*/
 #donate_form {
     margin-left: 15px;
 }
 
-#comment {
-    max-width: 40em;
+.comment {
+    max-width: 80em;
     resize: vertical;
     max-height: 300px;
     font-family: sans-serif;
