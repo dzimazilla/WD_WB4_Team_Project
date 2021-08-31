@@ -202,24 +202,29 @@ header {
 #about-us {
     background-image: url("/images/Together2.PNG");
     background-position: center;
+    background-size: cover;
 }
 
 #events {
     background-image: url("/images/Gathering1.PNG");
     background-position: center;
+    background-size: cover;
 }
 
 #resources {
     background-image: url("/images/Legal1.PNG");
+    background-size: cover;
 }
 
 #donate {
     background-image: url("/images/Together3.PNG");
     background-position: center;
+    background-size: cover;
 }
 
 #contact {
     background-image: url("/images/HappyPerson1.PNG");
+    background-size: cover;
 }
 
 
