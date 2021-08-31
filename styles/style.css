@@ -367,3 +367,22 @@ article a {
 .goog-te-gadget {
     color: transparent !important;
 }
+
+.community-festival {
+    float: right;
+    width: 40%;
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables in mobile display */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+.event-box {
+    table-layout:fixed;
+}
