@@ -211,13 +211,22 @@ header {
     background-image: url("/images/HappyPerson1.PNG");
 }
 
-article p {
+.textPop {
     background-color: white;
     box-shadow: 0px 2px 10px black;
     padding: 5px;
     float: left;
     width: 50%;
 }
+
+.cardHeader {
+    width: 100%;
+}
+
+.shadow {
+    box-shadow: 0px 3px 5px black;
+}
+
 
 @media screen and (min-width:360px) and (max-width: 400px){
     .grid {
