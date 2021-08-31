@@ -172,9 +172,6 @@ th, td {
 a:hover {
     box-shadow: 5px 5px 5px White inset, -5px -5px 5px White inset, 5px 5px 5px White, -5px -5px 5px White;
     border-radius: 10px;
-    width: 100px;
-    text-align: center;
-    font-size: larger;
 }
 
 #container {
