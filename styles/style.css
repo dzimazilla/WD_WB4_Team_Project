@@ -41,6 +41,8 @@ body {
 }
 
 .sidenav {
+    position: fixed;
+    left: 0%;
     display: flex;
     flex-flow: column;
     list-style: none;
@@ -327,3 +329,29 @@ header {
     font-family: monospace;
     font-size: 15px;
 }
+
+
+/* events.html */
+.moreevents {
+    font-size: x-small;
+    text-decoration: none;
+}
+
+.eventcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.sikhcommunity, .littleitaly, .palestine, .kabir, .venezuela, .tibet, .accessasie, .awareness, .ukraine, .redcross, .greekfest, .awards {
+    height: auto;
+    width: 50%; 
+}
+
+.eventcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
