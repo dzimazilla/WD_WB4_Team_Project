@@ -265,3 +265,28 @@ header {
 .formFormat {
     margin-bottom: 20px;
 }
+
+#donate_form{
+    margin-left: 15px;
+}
+
+#comment{
+    max-width: 40em;
+    resize: vertical;
+    max-height: 300px;
+    font-family: sans-serif;
+    background-color: white;
+
+}
+
+#buttons {
+    padding-left: 12px;
+    text-align:left;
+
+}
+
+::placeholder {
+    color: darkslategray;
+    font-family: monospace;
+    font-size: 15px;
+}
