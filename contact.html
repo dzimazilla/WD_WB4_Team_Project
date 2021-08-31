@@ -64,36 +64,37 @@
                 </p>
             </section>
 
-            <form method="post" action="action_page.html" autocomplete="on">
+            <form method="post" action="action_page.html" autocomplete="on" class="center shadow">
                 <div>
-                    <label for="firstName">First Name: </label>
+                    <label for="firstName">First Name: </label> <br />
                     <input type="text" id="firstName" size="25" minlength="2" maxlength="15" placeholder="Your name.."
-                        required="required" /><span><sup>*</sup></span>
+                        required="required" class="formFormat"/><span><sup>*</sup></span>
                 </div>
 
                 <div>
-                    <label for="lastName">Last Name: </label>
+                    <label for="lastName">Last Name: </label><br />
                     <input type="text" id="lastName" size="25" minlength="2" maxlength="15"
-                        placeholder="Your last name.." required="required" />
+                        placeholder="Your last name.." required="required"  class="formFormat"/>
                 </div>
 
                 <div>
-                    <label for="emailAddress">Email Address:</label>
+                    <label for="emailAddress" class="formFormat">Email Address:</label><br />
                     <input type="email" id="emailAddress" size="40" maxlength="30" placeholder="your_email@example.com"
                         required="required"
-                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /><span><sup>*</sup></span>
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="formFormat"/><span><sup>*</sup></span>
                 </div>
 
                 <div>
-                    <label for="comments">Questions and Comments</label>
+                    <label for="comments">Questions and Comments</label><br />
                     <textarea id="comments" cols="50"
-                        rows="4">We are waiting for your comments and suggestions..</textarea>
+                        rows="4"  class="formFormat">We are waiting for your comments and suggestions..</textarea>
                 </div>
                 <div>
-                    <input type="submit" id="submitLetter" value="Submit Form">
+                    <input type="submit" id="submitLetter" value="Submit Form" class="formFormat">
                 </div>
             </form>
         </main>
+        <br />
 
         <footer class="nav">
             <a href="#">Accessibility</a>
