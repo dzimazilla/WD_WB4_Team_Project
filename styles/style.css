@@ -260,7 +260,7 @@ article a {
     background-size: cover;
 }
 
-@media screen and (min-width:360px) and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
