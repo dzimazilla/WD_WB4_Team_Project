@@ -82,6 +82,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 article {
@@ -228,6 +230,30 @@ header {
 }
 
 
+/*----------------------about.html---------------------*/
+
+#mission {
+    background-image: url("/images/Together4.PNG");
+    background-size: cover;
+}
+#how_we {
+    background-image: url("/images/Work1.PNG");
+    background-size: cover;
+} 
+#accomplish {
+    background-image: url("/images/Graduation2.PNG");
+    background-size: cover;
+} 
+#plans {
+    background-image: url("/images/Together1.PNG");
+    background-size: cover;
+} 
+#how_you {
+    background-image: url("/images/HappyPerson3.PNG");
+    background-size: cover;
+}
+
+
 
 
 @media screen and (min-width:360px) and (max-width: 400px){
@@ -270,6 +296,11 @@ header {
 
 .formFormat {
     margin-bottom: 20px;
+}
+
+.hStyling {
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 #donate_form{
