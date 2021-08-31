@@ -14,6 +14,24 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <style>
+        @media print {
+            #container>*:not(main) {
+                display: none;
+            }
+
+            body {
+                background: none;
+                background-image: none;
+                color: #000F
+            }
+
+            img,
+            iframe {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <div id="container">
@@ -119,7 +137,7 @@
             <a href="resources.html">Resources</a>
             <a href="#top">Back to top</a>
 
-            
+
             <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
