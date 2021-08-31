@@ -41,7 +41,7 @@ body {
 
 .sidenav {
     position: fixed;
-    left: 0%;
+    right: 0%;
     display: flex;
     flex-flow: column;
     list-style: none;
@@ -263,6 +263,12 @@ article a {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+
+    .sidenav {
+        position: absolute;
+        top: -500px;
+        left: -500px;
+    }
 }
 
 @media screen and (min-width: 401px) and (max-width: 768px) {
@@ -270,6 +276,12 @@ article a {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .sidenav {
+        position: fixed;
+        top: 0%;
+        right: 0%;
     }
 }
 
