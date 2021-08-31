@@ -196,6 +196,7 @@ header {
 
 #news {
     background-image: url("/images/ClearSkies1.PNG");
+    background-size: cover;
 }
 
 #about-us {
@@ -243,7 +244,7 @@ header {
 
 
 .textPop {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.863);
     box-shadow: 0px 2px 10px black;
     padding: 5px;
     float: left;
