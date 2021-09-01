@@ -388,15 +388,3 @@ article a {
 .margin {
     margin: 10px;
 }
-
-#calendar {
-    background-color: lightgrey;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#calendarCaption {
-    text-align: top;
-}
-
-
