@@ -91,7 +91,10 @@ article {
 
 @media all and (max-width: 800px) {
     .nav {
-        justify-content: space-around;
+        justify-content: space-around; 
+    }
+    h1 {
+        font-size: 30px;
     }
 }
 
@@ -108,6 +111,9 @@ article {
     }
     .nav li:last-of-type a {
         border-bottom: none;
+    }
+    h1 {
+        font-size:22px;
     }
 }
 
@@ -391,4 +397,4 @@ article a {
 
 a:visited {
     color:purple;
-  }
+}
