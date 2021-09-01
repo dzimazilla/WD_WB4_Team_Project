@@ -93,6 +93,9 @@ article {
     .nav {
         justify-content: space-around;
     }
+    h1 {
+        font-size: 30px;
+    }
 }
 
 @media all and (max-width: 600px) {
@@ -108,6 +111,9 @@ article {
     }
     .nav li:last-of-type a {
         border-bottom: none;
+    }
+    h1 {
+        font-size: 22px;
     }
 }
 
@@ -263,7 +269,6 @@ article a {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-
     .sidenav {
         position: absolute;
         top: -500px;
@@ -277,7 +282,6 @@ article a {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-
     .sidenav {
         position: fixed;
         top: 0%;
@@ -311,6 +315,7 @@ article a {
 }
 
 /*----- donate.html and contact.html -----*/
+
 #donate_form {
     margin-left: 15px;
 }
@@ -376,15 +381,19 @@ article a {
 
 @media only screen and (max-width: 1096px) {
     .tablemobile {
-        position:absolute;
+        position: absolute;
         left: -2000px;
     }
 }
 
 .event-box {
-    table-layout:fixed;
+    table-layout: fixed;
 }
 
 .margin {
     margin: 10px;
+}
+
+a:visited {
+    color: purple;
 }
