@@ -147,11 +147,11 @@ footer {
 
 #resources_content h4 {
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #included {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: right;
     font-size: large;
     font-weight: bold;
@@ -324,7 +324,7 @@ article a {
     max-width: 80em;
     resize: vertical;
     max-height: 300px;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
 
@@ -335,7 +335,6 @@ article a {
 
 ::placeholder {
     color: darkslategray;
-    font-family: monospace;
     font-size: 15px;
 }
 
@@ -372,6 +371,8 @@ article a {
 .goog-te-gadget {
     color: transparent !important;
 }
+
+/*----------------*/
 
 .community-festival {
     float: right;
