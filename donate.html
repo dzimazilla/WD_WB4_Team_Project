@@ -9,16 +9,16 @@
     <meta name="keywords" content="donation">
     <meta name="author" content="Team 4: ChrisP, Remy, ChrisW, Dmitri, Anthony">
     <meta name='date' content='August 27, 2021'>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <title>Donate | UIA</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
 </head>
 
-<div id="container">
+
 
     <body>
+        <div id="container">
         <header>
             <h1>Donate</h1>
         </header>
@@ -137,8 +137,8 @@
                             placeholder="Card Number" required="required" /><span><sup>*</sup></span>
                         <div>
                             <label for="creditExpires">Expiration date:</label>
-                            <input type="month" id="creditExpires" pattern="\d*" size="8" maxlength="5"
-                                placeholder="MM / YY" min="08/21" required="required" /><span><sup>*</sup></span>
+                            <input type="month" id="creditExpires" size="8"
+                                required="required" /><span><sup>*</sup></span>
                         </div>
                         <div>
                             <label for="creditCvc"> Card Verification Code:</label>
@@ -449,14 +449,14 @@
                 <div>
                     <div>
                         <br>
-                        <label for="comment">Comments:</label>
+                        <label>Comments:</label>
                         <textarea class="comment"></textarea>
                     </div>
                 </div>
                 <br>
                 <div id="terms">
-                    <input type="checkbox"></input>
-                    <label for="confirmation">I have read the </label><a href="termsconditions.html"
+                    <input type="checkbox"/>
+                    I have read the <a href="termsconditions.html"
                         title="Click to read Terms and Conditions">Terms and
                         Conditions</a>*
                 </div>
@@ -486,7 +486,8 @@
             <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 
         </footer>
+    </div>
     </body>
-</div>
+
 
 </html>
