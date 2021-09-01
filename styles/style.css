@@ -388,3 +388,7 @@ article a {
 .margin {
     margin: 10px;
 }
+
+a:visited {
+    color:purple;
+  }
