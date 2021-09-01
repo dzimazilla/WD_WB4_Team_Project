@@ -398,3 +398,13 @@ article a {
 a:visited {
     color: purple;
 }
+
+#calendar {
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calendarCaption {
+    margin-top: 0px;
+}
